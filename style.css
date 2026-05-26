@@ -12,6 +12,7 @@ ul,ol{
 }
 button{
   cursor:pointer ;
+  border: 0;
 }
 .header-top{
   display: flex;
@@ -19,6 +20,19 @@ button{
   background: #060606;  
   align-items: center;
 
+}
+.header-top>a{
+  margin-left: 248px;
+}
+.header-main-img{
+  display: flex;
+}
+.header-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #060606;
+  opacity: 0.8;
 }
 .city{
   font-family: "Roboto", sans-serif;
@@ -66,15 +80,42 @@ button{
   padding: 12px 16px;
   width: 222px;
   height: 48px;
+  box-sizing: border-box;
   background: #81bc3d;
+  margin-left: 248px;
+  display: flex;
+  align-items: center;
 }
-ul>li{
+.header-button>img{
+  margin-right: 24px;
+}
+
+.menu{
+  display: flex;
+}
+.menu>li{
+  margin-right: 24px;
+}
+.menu>li:last-child{
+  margin-right: 0;
+}
+.menu>li>a{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
 }
+.header-info{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
 .catalog>.container{
     .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
