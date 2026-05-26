@@ -56,3 +56,64 @@ button{
   color: #060606;
   padding: 8px 32px 16px 8px;
 }
+.header-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  border-radius: 5px;
+  padding: 12px 16px;
+  width: 222px;
+  height: 48px;
+  background: #81bc3d;
+}
+ul>li{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+.catalog>.container{
+    .container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 23px 31px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "a b c"
+      "a d f"
+      "a e f"
+      "g h k"
+      "g j k"
+      "z x m";
+  }
+
+  .a { grid-area: a; }
+
+  .b { grid-area: b; }
+
+  .c { grid-area: c; }
+
+  .d { grid-area: d; }
+
+  .e { grid-area: e; }
+
+  .f { grid-area: f; }
+
+  .g { grid-area: g; }
+
+  .h { grid-area: h; }
+
+  .j { grid-area: j; }
+
+  .k { grid-area: k; }
+
+  .z { grid-area: z; }
+
+  .x { grid-area: x; }
+
+  .m { grid-area: m; }
+}
+
